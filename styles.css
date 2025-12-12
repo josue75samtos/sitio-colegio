@@ -1,0 +1,20 @@
+
+body.page { margin:0; font-family:Arial; background:#eef2f5;}
+.header{display:flex;justify-content:space-between;padding:20px;background:#003f8a;color:white;position:sticky;top:0;}
+.header__nav-item{margin-left:15px;color:white;text-decoration:none;font-weight:bold;}
+.hero{height:60vh;background:url('https://images.unsplash.com/photo-1571260899304-425eee4c7efc?w=1600') center/cover;display:flex;justify-content:center;align-items:center;color:white;text-align:center;}
+.section{padding:60px 20px;max-width:1000px;margin:auto;}
+.section__title{font-size:28px;margin-bottom:20px;}
+.mision__grid,.programas__grid,.galeria__grid,.equipo__grid{display:grid;gap:20px;}
+.mision__grid{grid-template-columns:repeat(auto-fit,minmax(260px,1fr));}
+.mision__card,.programas__card{background:white;padding:20px;border-radius:10px;}
+.galeria__grid{grid-template-columns:repeat(auto-fit,minmax(200px,1fr));}
+.galeria__img{width:100%;border-radius:10px;}
+.equipo__grid{grid-template-columns:repeat(auto-fit,minmax(220px,1fr));text-align:center;}
+.equipo__img{width:120px;height:120px;border-radius:50%;}
+.matricula__box{background:white;padding:20px;border-radius:10px;}
+.button{padding:12px 18px;border-radius:6px;border:none;cursor:not-allowed;}
+.button--primary{background:#003f8a;color:white;}
+.button--secondary{background:#555;color:white;}
+.contacto__input,.contacto__textarea{width:100%;padding:10px;margin-bottom:10px;}
+.footer{background:#002d63;color:white;text-align:center;padding:20px;}
